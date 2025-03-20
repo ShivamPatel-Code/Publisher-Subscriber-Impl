@@ -1,17 +1,16 @@
-package com.reactive;
+package com.reactive.implementation;
 
-import com.reactive.publisher.PublisherClass;
-import com.reactive.subcriber.SubscriberClass;
+import com.reactive.implementation.publisher.PublisherClass;
+import com.reactive.implementation.subcriber.SubscriberClass;
 
 import java.time.Duration;
 
-public class Main {
+public class Test {
 
     public static void main(String[] args) throws InterruptedException {
 
         test3();
     }
-
 
     private static void test1() throws InterruptedException {
         var publisher = new PublisherClass();
